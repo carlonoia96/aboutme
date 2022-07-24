@@ -1,5 +1,6 @@
 {
   "name": "aboutme",
+  "homepage": "https://www.internididesign.com/aboutme/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

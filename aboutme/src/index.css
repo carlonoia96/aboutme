@@ -1,3 +1,5 @@
+@import "Assets/fonts/Code-Pro/stylesheet.css";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +9,43 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html{
+  font-size: 28px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.full-screen{
+  height: calc(100vh);
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+*{
+  font-family: 'code-pro' !important;
+}
+
+.red{
+  color:#ff1616
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.title{
+  font-size: 1.5rem;
 }
