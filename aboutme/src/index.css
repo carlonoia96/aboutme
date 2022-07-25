@@ -34,8 +34,24 @@ code {
   font-family: 'code-pro' !important;
 }
 
+.white{
+  color: white;
+}
+
 .red{
   color:#ff1616
+}
+
+.bk-red{
+  background-color: #ff1616;
+}
+
+.bk-darkGray{
+  background-color: #545454;
+}
+
+.gray{
+  color: #cccccc;
 }
 
 .bold{
@@ -48,6 +64,18 @@ code {
 
 .title{
   font-size: 1.5rem;
+}
+
+.text-box{
+  background-color: white;
+  width: 32rem;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.text-box .container{
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 768px) {

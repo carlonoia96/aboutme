@@ -40,7 +40,7 @@
 }
 
 .block-2 .image {
-    height: 700px;
+    height: 770px;
     width: 50%;
     bottom: 0;
     right: 0;
@@ -49,7 +49,7 @@
 
 .block-2 .img {
     background-image: url("../Assets/images/me-child.webp");
-    background-position: center bottom;
+    background-position: right bottom;
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
@@ -67,6 +67,43 @@
     width: 90%;
     font-size: 1.9rem;
     line-height: 2.4rem;
+}
+
+.block-3{
+    position: relative;
+    background-color: #cccccc;
+}
+
+.block-3 .image {
+    height: 1500px;
+    width: 90%;
+    margin-top: -5px;
+    margin-left: -1%;
+}
+
+.block-3 .img {
+    background-image: url("../Assets/images/sfondo-3.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.block-3 .box-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.block-3 .box-container .text-box:first-child{
+    margin-top: 9rem;
+    margin-left: 51%;
+}
+
+.block-3 .box-container .text-box:last-child{
+    margin-top: 8rem;
+    margin-left: 23%;
 }
 
 @media only screen and (max-width: 768px) {
