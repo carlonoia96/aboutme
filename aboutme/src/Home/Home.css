@@ -90,7 +90,7 @@
     }
 
     .start .title {
-        font-size: 1.3rem;
+        font-size: 2rem;
         margin-top: 5vh;
     }
 
@@ -101,6 +101,23 @@
 
     .start .img {
         background-position: center bottom;
+    }
+
+    .block-2{
+        flex-direction: column;
+    }
+    .block-2 .image {
+        height: 500px;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .block-2 .text{
+        width: 90%;
+    }
+    .block-2 .text p {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.4rem;
     }
 }
 
