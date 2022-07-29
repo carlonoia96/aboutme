@@ -72,22 +72,24 @@ class Home extends React.Component<HomeProps, HomeState> {
                 </div>
                 <div className={"block-4"}>
                     <div className={"container-1"}>
-                        <p className={"text-align-center"}>
-                            Mi sono laureata in Economia e gestione delle imprese in pieno Covid-19 sviluppando la tesi
-                            sulle strategie per l'acquisizione e il mantenimento del potere di mercato.
-                        </p>
-                        <p className={"text-align-center"}>
-                            Ho maturato una spiccata propensione per l'<span
-                            className={"bold"}>imprenditorialità</span> ed un conseguente avvicinamento
-                            allo studio del <span className={"bold"}>Digital Marketing</span>.
-                        </p>
-                        <p className={"text-align-center"}>
-                            Conseguita la Laurea vedevo aprirsi <br/>davanti a me un'idea: <br/>diventare imprenditrice.<br/>
-                            Sì, ma di che cosa?
-                        </p>
-                        <p className={"text-align-center red"}>
-                            Imprenditrice della mia passione!
-                        </p>
+                        <div>
+                            <p className={"text-align-center"}>
+                                Mi sono laureata in Economia e gestione delle imprese in pieno Covid-19 sviluppando la tesi
+                                sulle strategie per l'acquisizione e il mantenimento del potere di mercato.
+                            </p>
+                            <p className={"text-align-center"}>
+                                Ho maturato una spiccata propensione per l'<span
+                                className={"bold"}>imprenditorialità</span> ed un conseguente avvicinamento
+                                allo studio del <span className={"bold"}>Digital Marketing</span>.
+                            </p>
+                            <p className={"text-align-center"}>
+                                Conseguita la Laurea vedevo aprirsi <br/>davanti a me un'idea: <br/>diventare imprenditrice.<br/>
+                                Sì, ma di che cosa?
+                            </p>
+                            <p className={"text-align-center red"}>
+                                Imprenditrice della mia passione!
+                            </p>
+                        </div>
                     </div>
                     <div className={"container-2"}>
                         <p className={"text-align-center"}>

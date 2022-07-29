@@ -203,7 +203,7 @@
 
     .block-3 .box-container .text-box:last-child {
         margin-left: unset;
-        margin-bottom: 10rem;
+        margin-bottom: 7.3rem;
         margin-top: 7.2rem;
     }
 
@@ -252,6 +252,35 @@
         width: 100%;
         height: calc(50% + 2rem);
 
+    }
+
+    .block-4 {
+        background-image: unset;
+        display: flex;
+        flex-direction: column;
+        height: 55rem;
+    }
+
+    .block-4 .container-1,
+    .block-4 .container-2{
+        width: 100%;
+        margin-left: unset;
+    }
+
+    .block-4 .container-1{
+        background-image: url("../Assets/images/7.webp");
+        background-position: -3.7rem -8.3rem;
+        background-repeat: no-repeat;
+        background-size: 31.3rem;
+        width: 100%;
+        padding-top: 29.3rem;
+        margin-top: unset;
+        display: flex;
+        justify-content: center;
+    }
+
+    .block-4 .container-1>div{
+        width: 90%;
     }
 
 
