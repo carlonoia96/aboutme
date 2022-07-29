@@ -56,20 +56,20 @@
     height: 100%;
 }
 
-.block-2 .text{
+.block-2 .text {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.block-2 .text p{
+.block-2 .text p {
     width: 90%;
     font-size: 1.9rem;
     line-height: 2.4rem;
 }
 
-.block-3{
+.block-3 {
     position: relative;
     background-color: #cccccc;
     padding-top: 10px;
@@ -90,19 +90,19 @@
     height: 100%;
 }
 
-.block-3 .box-container{
+.block-3 .box-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.block-3 .box-container .text-box:first-child{
+.block-3 .box-container .text-box:first-child {
     margin-top: 10rem;
     margin-left: 25.9%;
 }
 
-.block-3 .box-container .text-box:last-child{
+.block-3 .box-container .text-box:last-child {
     margin-top: 8rem;
     margin-left: 13%;
 }
@@ -141,21 +141,30 @@
         background-position: center bottom;
     }
 
-    .block-2{
+    .block-2 {
         flex-direction: column;
     }
+
     .block-2 .image {
         height: 500px;
         width: 100%;
         margin-top: 1rem;
     }
-    .block-2 .text{
+
+    .block-2 .text {
         width: 90%;
     }
+
     .block-2 .text p {
         width: 100%;
         font-size: 1rem;
         line-height: 1.4rem;
+    }
+
+    .block-3 {
+        background-color: #d9d9d9;
+        padding-top: 0px;
+        margin-top: 0px;
     }
 
     .block-3 .box-container {
@@ -164,10 +173,19 @@
 
     .block-3 .box-container .text-box:first-child {
         margin-left: unset;
+        margin-bottom: 10rem;
+        margin-top: 11rem;
     }
 
     .block-3 .box-container .text-box:last-child {
         margin-left: unset;
+        margin-bottom: 10rem;
+        margin-top: 7.2rem;
+    }
+
+    .block-3 .box-container .text-box:last-child .container {
+        padding-top: 1.5rem;
+        padding-bottom: 1.6rem;
     }
 
     .block-3 .box-container {
@@ -179,6 +197,40 @@
     .text-box {
         width: 16rem;
     }
+
+    .block-3 .image {
+        position: absolute;
+        height: 83rem;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .block-3 .img {
+        background-image: url("../Assets/images/3.webp");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: unset;
+        width: 100%;
+        height: 50%;
+        margin-bottom: -2rem;
+        position: relative;
+    }
+
+
+    .block-3 .img-2 {
+        background-image: url("../Assets/images/5.webp");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: 2.9rem;
+        width: 100%;
+        height: calc(50% + 2rem);
+
+    }
+
+
 }
 
 @media only screen and (min-width: 769px) {
