@@ -284,6 +284,17 @@
     }
 
 
+    .block-4 .container-2{
+        background-image: url("../Assets/images/8.webp");
+        background-position: -3.7rem 0rem;
+        background-repeat: no-repeat;
+        background-size: 31.3rem;
+        width: 100%;
+        padding-top: 44rem;
+        margin-top: unset;
+    }
+
+
 }
 
 @media only screen and (min-width: 769px) {
