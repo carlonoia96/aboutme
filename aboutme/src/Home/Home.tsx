@@ -92,17 +92,19 @@ class Home extends React.Component<HomeProps, HomeState> {
                         </div>
                     </div>
                     <div className={"container-2"}>
-                        <p className={"text-align-center"}>
-                            Grazie al supporto del mio fidanzato, dopo quasi setti anni ho capito che era giunto il
-                            momento di cambiare vita. Volevo <span className={"red"}>sentirmi</span> finalmente <span
-                            className={"red"}>realizzata</span>!
-                        </p>
-                        <p className={"text-align-center"}>
-                            Non ne potevo più di tornare a casa sempre priva di energia ed entusiasmo e di avere la vita
-                            sempre gestita da qualcun altro, così ho deciso di lasciare il posto fisso per <span
-                            className={"red"}>inseguire il
+                        <div>
+                            <p className={"text-align-center"}>
+                                Grazie al supporto del mio fidanzato, dopo quasi setti anni ho capito che era giunto il
+                                momento di cambiare vita. Volevo <span className={"red"}>sentirmi</span> finalmente <span
+                                className={"red"}>realizzata</span>!
+                            </p>
+                            <p className={"text-align-center"}>
+                                Non ne potevo più di tornare a casa sempre priva di energia ed entusiasmo e di avere la vita
+                                sempre gestita da qualcun altro, così ho deciso di lasciare il posto fisso per <span
+                                className={"red"}>inseguire il
                             sogno di una vita</span>.
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
