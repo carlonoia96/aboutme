@@ -157,6 +157,28 @@
         font-size: 1rem;
         line-height: 1.4rem;
     }
+
+    .block-3 .box-container {
+        position: relative;
+    }
+
+    .block-3 .box-container .text-box:first-child {
+        margin-left: unset;
+    }
+
+    .block-3 .box-container .text-box:last-child {
+        margin-left: unset;
+    }
+
+    .block-3 .box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-box {
+        width: 16rem;
+    }
 }
 
 @media only screen and (min-width: 769px) {

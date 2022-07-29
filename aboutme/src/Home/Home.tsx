@@ -39,7 +39,7 @@ class Home extends React.Component<HomeProps, HomeState> {
                     </div>
                 </div>
                 <div className={"block-3"}>
-                    <div className={"image"}>
+                    <div className={"image hide-on-mobile"}>
                         <div className={"img"}/>
                     </div>
                     <div className={"box-container"}>
