@@ -1,6 +1,17 @@
 .home {
 }
 
+.background{
+    background-image: url("../Assets/images/About-me-Desktop.webp");
+    background-position: center calc(100vh + 4rem);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 205rem;
+    position: absolute;
+    z-index: 2;
+}
+
 .start {
     align-items: unset;
     justify-content: unset;
@@ -40,7 +51,7 @@
 }
 
 .block-2 .image {
-    height: 770px;
+    height: 26.3rem;
     width: 50%;
     bottom: 0;
     right: 0;
@@ -48,10 +59,10 @@
 }
 
 .block-2 .img {
-    background-image: url("../Assets/images/me-child.webp");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+    /*background-image: url("../Assets/images/me-child.webp");*/
+    /*background-position: right bottom;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
     width: 100%;
     height: 100%;
 }
@@ -77,14 +88,14 @@
 }
 
 .block-3 .image {
-    height: 1500px;
+    height: 59.6rem;
 }
 
 .block-3 .img {
-    background-image: url("../Assets/images/sfondo-3.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 47.5rem;
+    /*background-image: url("../Assets/images/sfondo-3.png");*/
+    /*background-position: center bottom;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 47.5rem;*/
     margin-left: -4rem;
     width: 100%;
     height: 100%;
@@ -95,23 +106,24 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 3;
 }
 
 .block-3 .box-container .text-box:first-child {
-    margin-top: 10rem;
-    margin-left: 25.9%;
+    margin-top: 8rem;
+    margin-left: 30%;
 }
 
 .block-3 .box-container .text-box:last-child {
-    margin-top: 8rem;
-    margin-left: 13%;
+    margin-top: 16rem;
+    margin-left: 20%;
 }
 
 .block-4 {
-    background-image: url("../Assets/images/6.webp");
-    background-position: 4.9rem top;
-    background-repeat: no-repeat;
-    background-size: contain;
+    /*background-image: url("../Assets/images/6.webp");*/
+    /*background-position: 4.9rem top;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
     display: flex;
     flex-direction: column;
     height: 55rem;
