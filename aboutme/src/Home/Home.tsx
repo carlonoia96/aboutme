@@ -107,6 +107,9 @@ class Home extends React.Component<HomeProps, HomeState> {
                         </div>
                     </div>
                 </div>
+                <div className={"block-5"}>
+
+                </div>
             </div>
         );
     }
