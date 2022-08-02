@@ -145,6 +145,14 @@
     margin-top: 14rem;
 }
 
+.block-5 {
+    background-image: url("../Assets/images/9.webp");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 55rem;
+}
+
 @media only screen and (max-width: 768px) {
     .hide-on-mobile {
         display: none;
