@@ -68,9 +68,10 @@ code {
 
 .text-box{
   background-color: white;
-  width: 32rem;
+  width: 36.6rem;
   border-radius: 2rem;
   padding: 2rem;
+  font-size: 1.2rem;
 }
 
 .text-box .container{

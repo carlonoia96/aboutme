@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height: 205rem;
+    height: 237rem;
     position: absolute;
     z-index: 2;
 }
@@ -56,7 +56,7 @@
     bottom: 0;
     right: 0;
     margin-top: 5rem;
-    margin-bottom: 12rem;
+    margin-bottom: 15rem;
 }
 
 .block-2 .img {
@@ -86,7 +86,7 @@
     background-color: #cccccc;
     padding-top: 10px;
     margin-top: -10px;
-    padding-bottom: 9.5rem;
+    padding-bottom: 19.5rem;
 }
 
 .block-3 .image {
@@ -112,13 +112,13 @@
 }
 
 .block-3 .box-container .text-box:first-child {
-    margin-top: 8rem;
-    margin-left: 31%;
+    margin-top: 8.9rem;
+    margin-left: 29.7%;
 }
 
 .block-3 .box-container .text-box:last-child {
-    margin-top: 18.3rem;
-    margin-left: 17.3%;
+    margin-top: 21.9rem;
+    margin-left: 13.6%;
 }
 
 .block-4 {
@@ -142,14 +142,14 @@
     margin-left: calc(60% - 4rem);
     width: 40%;
     height: 20rem;
-    margin-top: 14rem;
+    margin-top: 21rem;
 }
 
 .block-5 {
-    background-image: url("../Assets/images/9.webp");
+    /*background-image: url("../Assets/images/9.webp");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain;*/
     height: 55rem;
 }
 
