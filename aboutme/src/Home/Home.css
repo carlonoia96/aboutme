@@ -2,7 +2,7 @@
 }
 
 .background{
-    background-image: url("../Assets/images/About-me-Desktop.webp");
+    background-image: url("../Assets/images/sfondo-desktop.webp");
     background-position: center calc(100vh + 4rem);
     background-repeat: no-repeat;
     background-size: contain;
@@ -56,6 +56,7 @@
     bottom: 0;
     right: 0;
     margin-top: 5rem;
+    margin-bottom: 12rem;
 }
 
 .block-2 .img {
@@ -85,6 +86,7 @@
     background-color: #cccccc;
     padding-top: 10px;
     margin-top: -10px;
+    padding-bottom: 9.5rem;
 }
 
 .block-3 .image {
@@ -111,12 +113,12 @@
 
 .block-3 .box-container .text-box:first-child {
     margin-top: 8rem;
-    margin-left: 30%;
+    margin-left: 31%;
 }
 
 .block-3 .box-container .text-box:last-child {
-    margin-top: 16rem;
-    margin-left: 20%;
+    margin-top: 18.3rem;
+    margin-left: 17.3%;
 }
 
 .block-4 {
@@ -140,7 +142,7 @@
     margin-left: calc(60% - 4rem);
     width: 40%;
     height: 20rem;
-    margin-top: 4rem;
+    margin-top: 14rem;
 }
 
 @media only screen and (max-width: 768px) {
