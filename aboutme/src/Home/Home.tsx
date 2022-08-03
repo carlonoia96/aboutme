@@ -156,7 +156,28 @@ class Home extends React.Component<HomeProps, HomeState> {
           </div>
         </div>
         <div className={"block-7"}>
-
+          <div className={"box-container text-align-center"}>
+            <p>
+              La mia <span className={"red"}>mission</span> è <span className={"bold"}>insegnare</span> a home lovers o aspiranti interior designer i <span className={"bold"}>segreti di un buon progetto
+              d'interni</span>, per rendere ogni abitazione super confortevole e di forte impatto estetico.
+            </p>
+            <p>
+              <span className={"bold"}>Aiuto</span>, inoltre, questa figura professionale <span className={"bold"}>ad emergere nel mercato</span> per creare una solida rete di clienti
+              e gestire al meglio ogni futura richiesta di lavoro.
+            </p>
+          </div>
+          <div className={"img"}/>
+          <div className={"box-container-2 bk-darkGray"}>
+            <div className={"postCard bk-white"}>
+              <div className={"container bk-red"}>
+                <div className={"img"}/>
+              </div>
+              <p className={"text-align-center"}>
+                Ottenere le linee guida per una casa più funzionale non è mai stato così semplice.<br/>
+                <span className={"bold"}>Scarica le tue guide gratuite!</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     );
