@@ -109,6 +109,20 @@ code {
   align-items: center;
 }
 
+.social{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social .img{
+  height: 4rem;
+  width: 4rem;
+}
+
 @media only screen and (max-width: 768px) {
   html{
     font-size: 16px;

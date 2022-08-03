@@ -186,12 +186,12 @@ class Home extends React.Component<HomeProps, HomeState> {
             <p className={"text-align-center"}>
               Ho molto a cuore che anche tu riesca ad imparare e a conoscere più da vicino il fantastico mondo
               dell'Interior Design, ecco perché qui troverai <span className={"bold"}>tantissimi contenuti</span>, che
-              ho creato appositamente per te.<br/>
+              ho creato appositamente per te.<br/> <br/>
               Cosa aspetti?!?<br/>
               Lascia che abbia finalmente inizio la tua formazione!
             </p>
-            <div className={"btn"}>
-              <p>Link a e-commerce</p>
+            <div className={"btn bk-red"}>
+              <p className={"white"}>Link a e-commerce</p>
             </div>
           </div>
           <div className={"box-container-2 bk-darkGray"}>
