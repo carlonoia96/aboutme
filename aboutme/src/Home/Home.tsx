@@ -158,11 +158,13 @@ class Home extends React.Component<HomeProps, HomeState> {
         <div className={"block-7"}>
           <div className={"box-container text-align-center"}>
             <p>
-              La mia <span className={"red"}>mission</span> è <span className={"bold"}>insegnare</span> a home lovers o aspiranti interior designer i <span className={"bold"}>segreti di un buon progetto
+              La mia <span className={"red"}>mission</span> è <span className={"bold"}>insegnare</span> a home lovers o
+              aspiranti interior designer i <span className={"bold"}>segreti di un buon progetto
               d'interni</span>, per rendere ogni abitazione super confortevole e di forte impatto estetico.
             </p>
             <p>
-              <span className={"bold"}>Aiuto</span>, inoltre, questa figura professionale <span className={"bold"}>ad emergere nel mercato</span> per creare una solida rete di clienti
+              <span className={"bold"}>Aiuto</span>, inoltre, questa figura professionale <span className={"bold"}>ad emergere nel mercato</span> per
+              creare una solida rete di clienti
               e gestire al meglio ogni futura richiesta di lavoro.
             </p>
           </div>
@@ -174,8 +176,35 @@ class Home extends React.Component<HomeProps, HomeState> {
               </div>
               <p className={"text-align-center"}>
                 Ottenere le linee guida per una casa più funzionale non è mai stato così semplice.<br/>
-                <span className={"bold"}>Scarica le tue guide gratuite!</span>
+                Scarica le tue <span className={"bold"}>guide gratuite!</span>
               </p>
+            </div>
+          </div>
+        </div>
+        <div className={"block-8"}>
+          <div className={"box-container"}>
+            <p className={"text-align-center"}>
+              Ho molto a cuore che anche tu riesca ad imparare e a conoscere più da vicino il fantastico mondo
+              dell'Interior Design, ecco perché qui troverai <span className={"bold"}>tantissimi contenuti</span>, che
+              ho creato appositamente per te.<br/>
+              Cosa aspetti?!?<br/>
+              Lascia che abbia finalmente inizio la tua formazione!
+            </p>
+            <div className={"btn"}>
+              <p>Link a e-commerce</p>
+            </div>
+          </div>
+          <div className={"box-container-2 bk-darkGray"}>
+            <div className={"container"}>
+              <div className={"social ig bk-red"}>
+                <div className={"img"}/>
+              </div>
+              <div className={"social yt bk-red"}>
+                <div className={"img"}/>
+              </div>
+              <div className={"social tg bk-red"}>
+                <div className={"img"}/>
+              </div>
             </div>
           </div>
         </div>

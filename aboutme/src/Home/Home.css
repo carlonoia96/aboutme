@@ -227,7 +227,7 @@
 }
 
 .block-7{
-    height: 70rem;
+    height: 65rem;
     position: relative;
 }
 
@@ -242,16 +242,32 @@
 
 .block-7 .box-container p{
     width: 40rem;
+    font-size: 1.2rem;
 }
 
-.block-7 .img{
+.block-7 > .img{
     position: absolute;
-    top: 0;
+    background-image: url("../Assets/images/13.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     left: 0;
+    height: 12rem;
+    width: 40rem;
+    top: 18rem;
 }
 
 .block-7 .box-container-2{
-    height: 40rem;
+    height: 34rem;
+    padding-top: 8rem;
+}
+
+.block-7 .postCard{
+    margin-left: calc(100vw - 36rem);
+}
+
+.block-7 .postCard .img{
+    background-image: url("../Assets/images/14.webp");
 }
 
 @media only screen and (max-width: 768px) {
