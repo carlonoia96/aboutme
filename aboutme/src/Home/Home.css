@@ -350,7 +350,19 @@
     background-image: url("../Assets/images/18.webp");
 }
 
+@media only screen and (max-width: 1900px) {
+
+    .background-container {
+        min-width: unset;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+
+    .background-container{
+        min-width: unset;
+    }
+
     .hide-on-mobile {
         display: none;
     }
