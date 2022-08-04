@@ -7,6 +7,14 @@ interface HomeProps {
 interface HomeState {
 }
 
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height
+  };
+}
+
 /*const Home: FC<HomeProps> = () => (
   <div className={styles.Home}>
     Home Component
@@ -17,6 +25,11 @@ class Home extends React.Component<HomeProps, HomeState> {
   render() {
     return (
       <div className={"home"}>
+        <div className={"debug"}>
+          w: {getWindowDimensions().width}
+          <br/>
+          h: {getWindowDimensions().height}
+        </div>
         <div className={"background-container"}>
           <div className={"background"}/>
           <div className={"background-2 hide-on-desktop"}/>
