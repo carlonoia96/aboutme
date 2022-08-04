@@ -139,4 +139,18 @@ code {
   html{
     font-size: 16px;
   }
+
+  .postCard {
+    width: 15rem;
+    font-size: 1rem;
+  }
+
+  .social {
+    height: 5rem;
+    width: 5rem;
+  }
+  .social .img {
+    height: 1.7rem;
+    width: 1.7rem;
+  }
 }
