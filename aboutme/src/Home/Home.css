@@ -9,6 +9,8 @@
     height: calc(237rem + 100vh);
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .background{
@@ -361,7 +363,18 @@
 
     .background{
         background-image: url("../Assets/images/19.webp");
-        background-position: center calc(100vh + 55rem);
+        background-position: center calc(100vh + 54.3rem);
+        background-size: 25rem;
+    }
+
+    .background-2{
+        background-image: url("../Assets/images/20.webp");
+        background-position: 20rem calc(100vh + 122rem);
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        width: 68.1rem;
+        height: 100%;
+        margin-top: calc(-1*(100vh + 100rem));
     }
 
     .background-container{
@@ -429,14 +442,15 @@
 
     .block-2 .text p {
         width: 100%;
-        font-size: 1rem;
-        line-height: 1.4rem;
+        font-size: 1.6rem;
+        line-height: 2.3rem;
     }
 
     .block-3 {
         background-color: #d9d9d9;
         padding-top: 0px;
         margin-top: 0px;
+        padding-bottom: 4.5rem;
     }
 
     .block-3 .box-container {
@@ -452,7 +466,7 @@
     .block-3 .box-container .text-box:last-child {
         margin-left: unset;
         margin-bottom: 7.3rem;
-        margin-top: 7.2rem;
+        margin-top: 2rem;
     }
 
     .block-3 .box-container .text-box:last-child .container {
@@ -467,7 +481,9 @@
     }
 
     .text-box {
-        width: 16rem;
+        width: 15rem;
+        font-size: 1rem;
+        padding: 1.5rem;
     }
 
     .block-3 .image {
@@ -506,7 +522,8 @@
         background-image: unset;
         display: flex;
         flex-direction: column;
-        height: 55rem;
+        height: 130rem;
+        background-color: unset !important;
     }
 
     .block-4 .container-1,
@@ -521,10 +538,11 @@
         /*background-repeat: no-repeat;*/
         /*background-size: 31.3rem;*/
         width: 100%;
-        padding-top: 29.3rem;
+        padding-top: 32rem;
         margin-top: unset;
         display: flex;
         justify-content: center;
+        font-size: 1rem;
     }
 
     .block-4 .container-1>div,
@@ -539,8 +557,8 @@
         /*background-repeat: no-repeat;*/
         /*background-size: 31.3rem;*/
         width: 100%;
-        padding-top: 50rem;
-        margin-top: 3rem;
+        padding-top: 12rem;
+        margin-top: 32rem;
         display: flex;
         justify-content: center;
     }

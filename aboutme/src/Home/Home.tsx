@@ -19,6 +19,7 @@ class Home extends React.Component<HomeProps, HomeState> {
       <div className={"home"}>
         <div className={"background-container"}>
           <div className={"background"}/>
+          <div className={"background-2 hide-on-desktop"}/>
         </div>
         <div className={"start full-screen"}>
           <div className={"title text-align-center"}>
