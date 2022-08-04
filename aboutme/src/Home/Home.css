@@ -406,13 +406,25 @@
     }
 
     .block-2 .image {
-        height: 500px;
+        height: 26rem;
         width: 100%;
         margin-top: 1rem;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 3rem;
+    }
+
+    .block-2 .img{
+        background-image: url("../Assets/images/me-child.webp");
+        background-position: 1rem bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 22rem;
     }
 
     .block-2 .text {
         width: 90%;
+        margin-bottom: 5rem;
     }
 
     .block-2 .text p {
@@ -531,6 +543,10 @@
         margin-top: 3rem;
         display: flex;
         justify-content: center;
+    }
+
+    .block-8 .box-container > p {
+        width: 20rem;
     }
 
 
