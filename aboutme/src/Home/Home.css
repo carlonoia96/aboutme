@@ -364,7 +364,7 @@
 
     .background{
         background-image: url("../Assets/images/19.webp");
-        background-position: center calc(100vh + 54.3rem);
+        background-position: center calc(100vh + 54rem);
         background-size: 25rem;
     }
 
@@ -418,6 +418,7 @@
 
     .block-2 {
         flex-direction: column;
+        height: 54rem;
     }
 
     .block-2 .image {
@@ -453,6 +454,7 @@
         padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 4.5rem;
+        height: 78rem;
     }
 
     .block-3 .box-container {
@@ -463,17 +465,24 @@
         margin-left: unset;
         margin-bottom: 10rem;
         margin-top: 11rem;
+        height: 20.5rem;
+    }
+
+    .block-3 .box-container .text-box:first-child .container {
+        height: 18.5rem;
     }
 
     .block-3 .box-container .text-box:last-child {
         margin-left: unset;
         margin-bottom: 7.3rem;
-        margin-top: 2rem;
+        margin-top: 1.6rem;
+        height: 21.5rem;
     }
 
     .block-3 .box-container .text-box:last-child .container {
         padding-top: 1.5rem;
         padding-bottom: 1.6rem;
+        height: 18.5rem;
     }
 
     .block-3 .box-container {
