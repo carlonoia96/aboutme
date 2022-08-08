@@ -33,7 +33,7 @@
 .start .title {
     font-size: 2.3rem;
     position: absolute;
-    top: 6rem;
+    top: 3.5rem;
     left: 4%;
 }
 
@@ -404,7 +404,7 @@
 
     .start .title {
         font-size: 2rem;
-        margin-top: 5vh;
+        margin-top: 5rem;
     }
 
     .start .image {

@@ -27,14 +27,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 2;
+    z-index: 3;
 }
 
 .menu-grey-box{
     min-width: 350px;
-    width: 40%;
+    width: 30%;
     min-height: 400px;
-    height: 90%;
+    height: 80%;
     border-radius: 32px;
     background-color: #ff1616;
     padding-top: 50px;
@@ -45,10 +45,11 @@
     flex-direction: column;
     justify-content: space-between;
     overflow-y: auto;
+    align-items: center;
 }
 
 .menu-element{
-    width: 100%;
+    width: 90%;
     border-radius: 24.5px;
     background-color: #fff;
     font-size: 24px;
@@ -123,6 +124,7 @@
 @media only screen and (max-width: 768px) {
     .menu-grey-box{
         width: 63%;
+        min-width: 280px;
     }
 }
 
@@ -132,6 +134,7 @@
         height: 75%;
         padding-top: 24px;
         padding-bottom: 24px;
+        min-width: 280px;
     }
 
     .menu-item{

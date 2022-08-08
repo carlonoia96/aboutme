@@ -4,6 +4,10 @@
     "url" :"/"
   },
   {
+    "title":"Chi sono",
+    "url" :"/aboutme"
+  },
+  {
     "title":"I miei corsi",
     "url" : "/shop"
   }
