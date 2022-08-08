@@ -160,3 +160,14 @@ code {
     width: 1.7rem;
   }
 }
+
+.code-icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-size: initial;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
