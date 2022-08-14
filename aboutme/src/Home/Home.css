@@ -215,7 +215,8 @@
 }
 
 .block-6 .box-container .postCard .img{
-    background-image: url("../Assets/images/11.webp");
+    background-image: url("../Assets/images/gif.gif");
+    height: 100%;
 }
 
 .block-6 .box-container{
@@ -289,7 +290,7 @@
 }
 
 .block-7 .postCard .img{
-    background-image: url("../Assets/images/14.webp");
+    background-image: url("../Assets/images/guideGratis.webp");
 }
 
 .block-8{

@@ -16,7 +16,6 @@ class Toolbar extends React.Component<ToolbarProps> {
             <div className="toolbar">
                 <Link className="logo-container" to={'/'}>
                     <div className="ambra-logo" onClick={() => this.props.setCurrentRoute('Home')}/>
-                    <p className={"hide-on-mobile"}>Interior Design Specialist</p>
                 </Link>
                 <div className="menu-indicator-container">
                     <label id="menu-label" className="animate__animated animate__faster animate__fadeIn"
