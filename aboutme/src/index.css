@@ -46,6 +46,12 @@ code {
   font-family: 'code-pro' !important;
 }
 
+a {
+  text-decoration: none;
+  color: initial;
+  transition: all 0.1s ease-in-out;
+}
+
 .white{
   color: white;
 }
@@ -159,4 +165,21 @@ code {
     height: 1.7rem;
     width: 1.7rem;
   }
+}
+
+.code-icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-size: initial;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }

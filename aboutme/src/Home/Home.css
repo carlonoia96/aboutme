@@ -33,7 +33,7 @@
 .start .title {
     font-size: 2.3rem;
     position: absolute;
-    top: 6rem;
+    top: 3.5rem;
     left: 4%;
 }
 
@@ -215,7 +215,8 @@
 }
 
 .block-6 .box-container .postCard .img{
-    background-image: url("../Assets/images/11.webp");
+    background-image: url("../Assets/images/gif.gif");
+    height: 100%;
 }
 
 .block-6 .box-container{
@@ -289,7 +290,7 @@
 }
 
 .block-7 .postCard .img{
-    background-image: url("../Assets/images/14.webp");
+    background-image: url("../Assets/images/guideGratis.webp");
 }
 
 .block-8{
@@ -404,7 +405,7 @@
 
     .start .title {
         font-size: 2rem;
-        margin-top: 5vh;
+        margin-top: 5rem;
     }
 
     .start .image {
