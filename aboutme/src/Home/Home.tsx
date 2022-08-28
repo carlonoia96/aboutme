@@ -200,15 +200,18 @@ class Home extends React.Component<HomeProps, HomeState> {
                     </div>
                     <div className={"img"}/>
                     <div className={"box-container-2 bk-darkGray"}>
-                        <div className={"postCard bk-white"}>
-                            <div className={"container bk-red"}>
-                                <div className={"img"}/>
+                        <a href={"https://www.internididesign.com/shop/negozio/"} target={"_blank"}>
+                            <div className={"postCard bk-white"}>
+                                <div className={"container bk-red"}>
+                                    <div className={"img"}/>
+                                </div>
+                                <p className={"text-align-center"}>
+                                    Ottenere le linee guida per una casa più funzionale non è mai stato così semplice.<br/>
+                                    Scarica le tue <span className={"bold"}>guide gratuite!</span>
+                                </p>
                             </div>
-                            <p className={"text-align-center"}>
-                                Ottenere le linee guida per una casa più funzionale non è mai stato così semplice.<br/>
-                                Scarica le tue <span className={"bold"}>guide gratuite!</span>
-                            </p>
-                        </div>
+                        </a>
+
                     </div>
                 </div>
                 <div className={"block-8"}>
@@ -222,18 +225,24 @@ class Home extends React.Component<HomeProps, HomeState> {
                             Cosa aspetti?!?<br/>
                             Lascia che abbia finalmente inizio la tua formazione!
                         </p>
-                        <div className={"btn bk-red"}>
-                            <p className={"white"}>Link a e-commerce</p>
-                        </div>
+                        <a href={"https://www.internididesign.com/shop/negozio/"} target={"_blank"}>
+                            <div className={"btn bk-red"}>
+                                <p className={"white"}>Scopri di più!</p>
+                            </div>
+                        </a>
                     </div>
                     <div className={"box-container-2 bk-darkGray"}>
                         <div className={"container"}>
-                            <div className={"social ig bk-red"}>
-                                <div className={"img"}/>
-                            </div>
-                            <div className={"social yt bk-red"}>
-                                <div className={"img"}/>
-                            </div>
+                            <a href={"https://www.instagram.com/internididesign/"} target={"_blank"}>
+                                <div className={"social ig bk-red"}>
+                                    <div className={"img"}/>
+                                </div>
+                            </a>
+                            <a href={"https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"} target={"_blank"}>
+                                <div className={"social yt bk-red"}>
+                                    <div className={"img"}/>
+                                </div>
+                            </a>
                             <div className={"social tg bk-red"}>
                                 <div className={"img"}/>
                             </div>
