@@ -1,5 +1,7 @@
-import React, {FC} from 'react';
+import React, {FC, Fragment} from 'react';
 import './Home.css';
+import TextBox from "../TextBox/TextBox";
+import Postcard from "../Postcard/Postcard";
 
 interface HomeProps {
 }
@@ -18,7 +20,8 @@ class Home extends React.Component<HomeProps, HomeState> {
                 <div className={"start full-screen"}>
                     <div className={"title text-align-center"}>
                         <p>Ciao, sono <span className={"red"}>Ambra</span><br/><br className={"hide-on-desktop"}/>
-                            <span className={"bold"}> Interior Designer <br className={"hide-on-desktop"}/> Specialist</span>
+                            <span className={"bold"}> Interior Designer <br
+                                className={"hide-on-desktop"}/> Specialist</span>
                         </p>
                     </div>
                     <div className={"image"}>
@@ -42,30 +45,38 @@ class Home extends React.Component<HomeProps, HomeState> {
                         <div className={"img-2 hide-on-desktop"}/>
                     </div>
                     <div className={"box-container"}>
-                        <div className={"text-box"}>
-                            <div className={"container bk-red white text-align-center"}>
-                                <p>
-                                    Negli anni io crescevo ed insieme a me anche il mio sogno si veniva a delineare
-                                    sempre di più.
-                                </p>
-                                <p>
-                                    La mia situazione economica non mi consentì di intraprendere questo percorso.
-                                    Iniziai così a lavorare come commessa di abbigliamento in un centro commerciale.
-                                </p>
-                            </div>
-                        </div>
-                        <div className={"text-box bk-gary"}>
-                            <div className={"container bk-darkGray white text-align-center"}>
-                                <p>
-                                    Nonostante il lavoro impegnasse gran parte delle mie giornate, sentivo la necessità
-                                    di continuare a studiare e allora mi iscrissi all'università di Economia, che era
-                                    nella mia città e andai avanti di borse di studio.
-                                </p>
-                                <p>
-                                    Da lì a poco compresi che il mio sogno non era del tutto irrealizzabile...
-                                </p>
-                            </div>
-                        </div>
+                        <TextBox
+                            background={"bk-red"}
+                            text={
+                                <Fragment>
+                                    <p>
+                                        Negli anni io crescevo ed insieme a me anche il mio sogno si veniva a delineare
+                                        sempre di più.
+                                    </p>
+                                    <p>
+                                        La mia situazione economica non mi consentì di intraprendere questo percorso.
+                                        Iniziai così a lavorare come commessa di abbigliamento in un centro commerciale.
+                                    </p>
+                                </Fragment>
+                            }/>
+
+                        <TextBox
+                            background={"bk-darkGray"}
+                            text={
+                                <Fragment>
+                                    <p>
+                                        Nonostante il lavoro impegnasse gran parte delle mie giornate, sentivo la
+                                        necessità
+                                        di continuare a studiare e allora mi iscrissi all'università di Economia, che
+                                        era
+                                        nella mia città e andai avanti di borse di studio.
+                                    </p>
+                                    <p>
+                                        Da lì a poco compresi che il mio sogno non era del tutto irrealizzabile...
+                                    </p>
+                                </Fragment>
+                            }/>
+
                     </div>
                 </div>
                 <div className={"block-4 bk-gray"}>
@@ -111,8 +122,9 @@ class Home extends React.Component<HomeProps, HomeState> {
                 </div>
                 <div className={"block-5 bk-gray"}>
                     <div className={"box-container"}>
-                        <div className={"text-box"}>
-                            <div className={"container bk-red white text-align-center"}>
+                        <TextBox
+                            background={"bk-red"} text={
+                            <Fragment>
                                 <p>
                                     Volutamente non ho scelto un corso di laurea in architettura perché la mia passione
                                     e il mio obiettivo
@@ -122,8 +134,8 @@ class Home extends React.Component<HomeProps, HomeState> {
                                     che
                                     volevo fare, ho deciso di seguire degli studi mirati nel settore d'interni.
                                 </p>
-                            </div>
-                        </div>
+                            </Fragment>
+                        }/>
                     </div>
                     <div className={"text-container"}>
                         <p className={"text-align-center"}>
@@ -143,17 +155,18 @@ class Home extends React.Component<HomeProps, HomeState> {
                 </div>
                 <div className={"block-6 bk-gray"}>
                     <div className={"box-container"}>
-                        <div className={"postCard bk-white"}>
-                            <div className={"container bk-red"}>
-                                <div className={"img"}/>
-                            </div>
-                            <p className={"text-align-center"}>
-                                Oggi sono contenta di aver avviato il mio business di successo e di avere Carlo, che mi
-                                aiuta in questo
-                                progetto, gestendomi tutta la parte legata al sito web e appoggiandomi in ogni mia
-                                scelta.
-                            </p>
-                        </div>
+
+                        <Postcard classID={"postCard-1"} hoverEffect={true} text={
+                            <Fragment>
+                                <p className={"text-align-center"}>
+                                    Oggi sono contenta di aver avviato il mio business di successo e di avere Carlo, che mi
+                                    aiuta in questo
+                                    progetto, gestendomi tutta la parte legata al sito web e appoggiandomi in ogni mia
+                                    scelta.
+                                </p>
+                            </Fragment>
+                        }/>
+
                     </div>
                     <div className={"box-container-2"}>
                         <div className={"img"}/>
@@ -181,17 +194,20 @@ class Home extends React.Component<HomeProps, HomeState> {
                     </div>
                     <div className={"img"}/>
                     <div className={"box-container-2 bk-darkGray"}>
-                        <a href={"https://www.internididesign.com/shop/negozio/"} target={"_blank"}>
-                            <div className={"postCard bk-white"}>
-                                <div className={"container bk-red"}>
-                                    <div className={"img"}/>
-                                </div>
+
+                        <Postcard
+                            classID={"postCard-1"}
+                            link={"https://www.internididesign.com/shop/negozio/"}
+                            hoverEffect={true}
+                            text={
+                            <Fragment>
                                 <p className={"text-align-center"}>
-                                    Ottenere le linee guida per una casa più funzionale non è mai stato così semplice.<br/>
+                                    Ottenere le linee guida per una casa più funzionale non è mai stato così
+                                    semplice.<br/>
                                     Scarica le tue <span className={"bold"}>guide gratuite!</span>
                                 </p>
-                            </div>
-                        </a>
+                            </Fragment>
+                            }/>
 
                     </div>
                 </div>

@@ -18,7 +18,8 @@
     background-image: url("../Assets/images/sfondo-desktop.webp");
     background-position: center calc(100vh + 4rem);
     background-repeat: no-repeat;
-    background-size: contain;
+    /*background-size: contain;*/
+    background-size: 64rem;
     /*width: 100%;*/
     width: 68.1rem;
     height: 100%;
@@ -98,7 +99,7 @@
     background-color: #cccccc;
     padding-top: 10px;
     margin-top: -10px;
-    padding-bottom: 19.5rem;
+    padding-bottom: 17.5rem;
 }
 
 .block-3 .image {
@@ -127,13 +128,13 @@
 }
 
 .block-3 .box-container .text-box:first-child {
-    margin-top: 8.9rem;
-    margin-left: 14rem;
+    margin-top: 8.8rem;
+    margin-left: 11rem;
 }
 
 .block-3 .box-container .text-box:last-child {
-    margin-top: 21.9rem;
-    margin-left: -9rem;
+    margin-top: 20.4rem;
+    margin-left: -8.7rem;
 }
 
 .block-4 {
@@ -143,14 +144,14 @@
     /*background-size: contain;*/
     display: flex;
     flex-direction: column;
-    height: 75rem;
+    height: 66rem;
     align-items: center;
 }
 
 .block-4 .container-1 {
     width: 35rem;
     height: 27rem;
-    margin-top: 3.4rem;
+    margin-top: 0rem;
     margin-left: -25rem;
     font-size: 1.2rem;
 }
@@ -159,7 +160,7 @@
     margin-left: 32rem;
     width: 27rem;
     height: 20rem;
-    margin-top: 14rem;
+    margin-top: 9rem;
     font-size: 1.2rem;
 }
 
@@ -283,10 +284,13 @@
 .block-7 .box-container-2{
     height: 34rem;
     padding-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.block-7 .postCard{
-    margin-left: calc(100vw - 36rem);
+.block-7 .postCard-1 {
+    margin-left: 20rem;
 }
 
 .block-7 .postCard .img{

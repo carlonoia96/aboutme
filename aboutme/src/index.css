@@ -67,7 +67,8 @@ a, a>div, .hover-effect {
 }
 
 a:hover,
-a:hover>div{
+a:hover>div,
+.hover-effect:hover{
   transform: scale(1.05);
 }
 
@@ -125,19 +126,6 @@ button:hover {
 
 .title{
   font-size: 1.5rem;
-}
-
-.text-box{
-  background-color: white;
-  width: 36.6rem;
-  border-radius: 2rem;
-  padding: 2rem;
-  font-size: 1.2rem;
-}
-
-.text-box .container{
-  border-radius: 1rem;
-  padding: 1rem;
 }
 
 .postCard{
