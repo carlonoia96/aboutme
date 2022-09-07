@@ -6,6 +6,7 @@ import Home from "./Home/Home";
 import Toolbar from './Toolbar/Toolbar';
 import Menu from './Menu/Menu';
 
+
 const FADE = {
     IN: 'animate__slideInDown',
     OUT: 'animate__slideOutUp'
