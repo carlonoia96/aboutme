@@ -7,29 +7,10 @@ interface HomeProps {
 interface HomeState {
 }
 
-function getWindowDimensions() {
-    const {innerWidth: width, innerHeight: height} = window;
-    return {
-        width,
-        height
-    };
-}
-
-/*const Home: FC<HomeProps> = () => (
-  <div className={styles.Home}>
-    Home Component
-  </div>
-);*/
-
 class Home extends React.Component<HomeProps, HomeState> {
     render() {
         return (
             <div className={"home"}>
-                <div className={"debug"}>
-                    w: {getWindowDimensions().width}
-                    <br/>
-                    h: {getWindowDimensions().height}
-                </div>
                 <div className={"background-container"}>
                     <div className={"background"}/>
                     <div className={"background-2 hide-on-desktop"}/>
@@ -37,7 +18,7 @@ class Home extends React.Component<HomeProps, HomeState> {
                 <div className={"start full-screen"}>
                     <div className={"title text-align-center"}>
                         <p>Ciao, sono <span className={"red"}>Ambra</span><br/><br className={"hide-on-desktop"}/>
-                            <span className={"bold"}> interior & social <br className={"hide-on-desktop"}/> designer specialist</span>
+                            <span className={"bold"}> Interior Designer <br className={"hide-on-desktop"}/> Specialist</span>
                         </p>
                     </div>
                     <div className={"image"}>

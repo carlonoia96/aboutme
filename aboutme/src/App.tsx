@@ -6,21 +6,6 @@ import Home from "./Home/Home";
 import Toolbar from './Toolbar/Toolbar';
 import Menu from './Menu/Menu';
 
-/*
-function App() {
-  return (
-      <div className={'container'}>
-        <Routes>
-          <Route path="/aboutme" element={<Home/>}/>
-        </Routes>
-      </div>
-  );
-}
-
-export default App;
-*/
-
-
 const FADE = {
     IN: 'animate__slideInDown',
     OUT: 'animate__slideOutUp'
