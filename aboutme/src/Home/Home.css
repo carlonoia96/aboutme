@@ -217,7 +217,6 @@
 
 .block-6 .box-container .postCard .img{
     background-image: url("../Assets/images/gif.gif");
-    height: 100%;
 }
 
 .block-6 .box-container{
@@ -278,11 +277,11 @@
     left: 0;
     height: 12rem;
     width: 40rem;
-    top: 18rem;
+    top: 18.6rem;
 }
 
 .block-7 .box-container-2{
-    height: 34rem;
+    height: 47rem;
     padding-top: 8rem;
     display: flex;
     align-items: center;
@@ -459,7 +458,7 @@
         padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 4.5rem;
-        height: 78rem;
+        height: 83rem;
     }
 
     .block-3 .box-container {
@@ -470,24 +469,24 @@
         margin-left: unset;
         margin-bottom: 10rem;
         margin-top: 11rem;
-        height: 20.5rem;
+        height: 26.5rem;
     }
 
     .block-3 .box-container .text-box:first-child .container {
-        height: 18.5rem;
+        height: 22.5rem;
     }
 
     .block-3 .box-container .text-box:last-child {
         margin-left: unset;
         margin-bottom: 7.3rem;
-        margin-top: 1.6rem;
-        height: 21.5rem;
+        margin-top: 2.6rem;
+        height: 28.5rem;
     }
 
     .block-3 .box-container .text-box:last-child .container {
         padding-top: 1.5rem;
         padding-bottom: 1.6rem;
-        height: 18.5rem;
+        height: 24.5rem;
     }
 
     .block-3 .box-container {
@@ -575,20 +574,22 @@
         /*background-repeat: no-repeat;*/
         /*background-size: 31.3rem;*/
         width: 100%;
-        padding-top: 8rem;
-        margin-top: 32rem;
+        padding-top: 10rem;
+        margin-top: 57.6rem;
         display: flex;
         justify-content: center;
         background-color: #cccccc;
         font-size: 1rem;
+        height: 30rem;
     }
 
     .block-5 {
         height: 67rem;
+        margin-top: -1rem;
     }
 
     .block-5 .box-container {
-        padding-top: 0;
+        padding-top: 1.5rem;
     }
 
     .block-5 .text-container p {
@@ -604,14 +605,15 @@
     }
 
     .block-5 .text-container-2 p {
-        width: 15rem;
+        width: 20rem;
         top: 10rem;
-        left: calc(50% - 9.5rem);
+        left: calc(50% - 9.8rem);
         font-size: 1rem;
     }
 
     .block-6 {
         height: 65rem;
+        margin-top: -1rem;
     }
 
     .block-6 .box-container {
@@ -656,6 +658,10 @@
     }
 
     .block-7 .postCard {
+        margin-left: 0;
+    }
+
+    .block-7 .postCard-1 {
         margin-left: 0;
     }
 

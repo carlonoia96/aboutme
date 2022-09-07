@@ -2,6 +2,7 @@ import React, {FC, Fragment} from 'react';
 import './Home.css';
 import TextBox from "../TextBox/TextBox";
 import Postcard from "../Postcard/Postcard";
+import Button from "../Button/Button";
 
 interface HomeProps {
 }
@@ -222,11 +223,9 @@ class Home extends React.Component<HomeProps, HomeState> {
                             Cosa aspetti?!?<br/>
                             Lascia che abbia finalmente inizio la tua formazione!
                         </p>
-                        <a href={"https://www.internididesign.com/shop/negozio/"} target={"_blank"}>
-                            <div className={"btn bk-red"}>
-                                <p className={"white"}>Scopri di più!</p>
-                            </div>
-                        </a>
+
+                        <Button text={"Scopri di più!"} link={"https://www.internididesign.com/shop/negozio/"}/>
+
                     </div>
                     <div className={"box-container-2 bk-darkGray"}>
                         <div className={"container"}>
