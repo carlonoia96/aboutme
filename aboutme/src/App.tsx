@@ -81,7 +81,7 @@ class App extends React.Component<{}, AppState> {
             }
             <div className={'container'}>
                 <Routes>
-                    <Route path="/aboutme" element={<Home/>}/>
+                    <Route path="/aboutme/test" element={<Home/>}/>
                 </Routes>
             </div>
         </>);
