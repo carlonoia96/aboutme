@@ -99,7 +99,7 @@
     background-image: url('../Assets/images/instagram.svg') !important;
     height: 30px !important;
     width: 30px !important;
-    margin-right: 15px !important;
+    margin-right: 30px !important;
     cursor: pointer !important;
     background-position: center !important;
     background-size: auto !important;
@@ -111,7 +111,17 @@
     width: 40px !important;
     cursor: pointer !important;
     background-position: center !important;
+    margin-right: 30px !important;
     background-size: auto !important;
+}
+
+.telegram {
+    background-image: url('../Assets/images/telegram.webp') !important;
+    height: 30px !important;
+    width: 30px !important;
+    cursor: pointer !important;
+    background-position: center !important;
+    background-size: contain !important;
 }
 
 
@@ -147,4 +157,14 @@
     .menu-element {
         font-size: 16px;
     }
+}
+
+.menu-body.menu-element a:nth-child(5){
+    color: #5454;
+    cursor: pointer;
+
+}
+
+.menu-body.menu-element a:nth-child(5):hover, .menu-body.menu-element a:nth-child(5):hover>div {
+    transform: scale(1);
 }

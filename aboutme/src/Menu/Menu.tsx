@@ -1,93 +1,102 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import menus from "./menu.json";
 import "./Menu.css"
 
 interface MenuProps {
-    fade: string | undefined;
-    toggleMenu: () => void;
-    currentRoute: string;
-    setCurrentRoute: (menu: string) => void;
+  fade: string | undefined;
+  toggleMenu: () => void;
+  currentRoute: string;
+  setCurrentRoute: (menu: string) => void;
 }
 
 class Menu extends React.Component<MenuProps> {
 
-    routeOnOpening: string | null = null;
+  routeOnOpening: string | null = null;
 
-    componentDidMount(){
-        this.routeOnOpening = this.props.currentRoute;
-        this.props.setCurrentRoute('Menu');
+  componentDidMount() {
+    this.routeOnOpening = this.props.currentRoute;
+    this.props.setCurrentRoute('Menu');
+  }
+
+  componentWillUnmount() {
+    document.body.classList.remove("overflow-y-hidden");
+    document.body.style.paddingRight = 'initial';
+
+    if (this.routeOnOpening) {
+      this.props.setCurrentRoute(this.routeOnOpening);
     }
+  }
 
-    componentWillUnmount() {
-        document.body.classList.remove("overflow-y-hidden");
-        document.body.style.paddingRight = 'initial';
+  onClickMenu(menu: any) {
+    this.routeOnOpening = null;
+    this.props.toggleMenu();
+    this.props.setCurrentRoute(menu.title);
+  }
 
-        if(this.routeOnOpening){
-            this.props.setCurrentRoute(this.routeOnOpening);
-        }
-    }
+  render() {
 
-    onClickMenu(menu: any){
-        this.routeOnOpening = null;
-        this.props.toggleMenu();
-        this.props.setCurrentRoute(menu.title);
-    }
+    const scrollDiv = document.createElement("div");
+    scrollDiv.className = "scrollbar-measure";
+    document.body.appendChild(scrollDiv);
 
-    render() {
-
-        const scrollDiv = document.createElement("div");
-        scrollDiv.className = "scrollbar-measure";
-        document.body.appendChild(scrollDiv);
-
-        // Gestione width scrollbar
-        const scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
-        document.body.classList.add("overflow-y-hidden");
-        document.body.style.paddingRight = (scrollbarWidth+'px');
-        document.body.removeChild(scrollDiv);
+    // Gestione width scrollbar
+    const scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+    document.body.classList.add("overflow-y-hidden");
+    document.body.style.paddingRight = (scrollbarWidth + 'px');
+    document.body.removeChild(scrollDiv);
 
 
-        return (
-            <div
-                className={`menu-container animate__animated animate__faster ${this.props.fade}`}
+    return (
+      <div
+        className={`menu-container animate__animated animate__faster ${this.props.fade}`}
+      >
+        <div className="menu-grey-box">
+          <div className="menu-header menu-element">
+            <p>
+              Keep in touch! 👇
+              <br/>
+              <a href="/shop/contattami/" target={"_blank"}>info@internididesign.com</a>
+            </p>
+          </div>
+          <div className="menu-body menu-element">
+            {menus.map((menu) => (
+              <a className="menu-item" href={menu.url} target={"_blank"} onClick={() => this.onClickMenu(menu)}>
+                {menu.title}
+              </a>
+            ))}
+          </div>
+          <div className="menu-footer menu-element">
+            <a
+              href="https://www.instagram.com/internididesign/"
+              className="background instagram"
+              target="_blank"
+              rel="noreferrer"
             >
-                <div className="menu-grey-box">
-                    <div className="menu-header menu-element">
-                        <p>
-                            Keep in touch! 👇
-                            <br />
-                            <a href="/shop/contattami/" target={"_blank"}>info@internididesign.com</a>
-                        </p>
-                    </div>
-                    <div className="menu-body menu-element">
-                        {menus.map((menu) => (
-                            <a className="menu-item" href={menu.url} target={"_blank"} onClick={() => this.onClickMenu(menu)} >
-                                {menu.title}
-                            </a>
-                        ))}
-                    </div>
-                    <div className="menu-footer menu-element">
-                        <a
-                            href="https://www.instagram.com/internididesign/"
-                            className="background instagram"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            {" "}
-                        </a>
-                        <a
-                            href="https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"
-                            className="background youtube"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            {" "}
-                        </a>
-                    </div>
-                </div>
-            </div>
-        );
-    }
+              {" "}
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"
+              className="background youtube"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+            </a>
+            <a
+              href="https://t.me/internididesign"
+              className="background telegram"
+              target="_blank"
+              rel="noreferrer"
+            >
+
+              {" "}
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Menu;
