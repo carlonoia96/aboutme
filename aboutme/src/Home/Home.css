@@ -352,6 +352,8 @@
 }
 .block-8 .yt .img{
     background-image: url("../Assets/images/17.webp");
+    height: 4.5em;
+    width: 4.5em;
 }
 .block-8 .tg .img{
     background-image: url("../Assets/images/18.webp");
