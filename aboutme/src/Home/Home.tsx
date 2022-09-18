@@ -239,9 +239,11 @@ class Home extends React.Component<HomeProps, HomeState> {
                                     <div className={"img"}/>
                                 </div>
                             </a>
-                            <div className={"social tg bk-red"}>
-                                <div className={"img"}/>
-                            </div>
+                            <a href={"https://t.me/internididesign"} target={"_blank"}>
+                                <div className={"social tg bk-red"}>
+                                    <div className={"img"}/>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
